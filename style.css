@@ -222,45 +222,55 @@ body {
         padding: 6px;
     }
     .slide {
-        padding: 12px;
+        padding: 10px;
         border-radius: 12px;
         font-size: 0.98em;
+        max-width: 100vw;
+        word-break: break-word;
+        overflow-wrap: break-word;
     }
     .header {
-        padding: 12px;
+        padding: 10px;
     }
     .header h1 {
-        font-size: 1.2em;
+        font-size: 1.1em;
+        word-break: break-word;
     }
     .header p {
-        font-size: 1em;
+        font-size: 0.98em;
+        word-break: break-word;
     }
     .slide h2,
     .section-title h2 {
-        font-size: 1.1em;
+        font-size: 1em;
         padding-bottom: 6px;
+        word-break: break-word;
+    }
+    .slide-content {
+        word-break: break-word;
+        overflow-wrap: break-word;
     }
     .section-title {
-        padding: 14px 4px;
+        padding: 10px 2px;
         border-radius: 10px;
-        margin: 10px 0;
+        margin: 8px 0;
     }
     .navigation {
-        padding: 6px 10px;
+        padding: 6px 8px;
         gap: 6px;
         border-radius: 20px;
-        bottom: 10px;
+        bottom: 8px;
     }
     .nav-btn {
-        padding: 7px 12px;
-        font-size: 0.95em;
+        padding: 7px 10px;
+        font-size: 0.93em;
         border-radius: 12px;
     }
     .slide-counter {
-        padding: 4px 8px;
-        font-size: 0.85em;
+        padding: 4px 6px;
+        font-size: 0.82em;
         border-radius: 10px;
-        top: 8px;
-        right: 8px;
+        top: 6px;
+        right: 6px;
     }
 }
