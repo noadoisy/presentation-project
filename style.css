@@ -5,10 +5,10 @@
 }
 
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(135deg, #1a2236 0%, #2e3440 100%);
+    font-family: 'Georgia', serif;
+    background-color: #1A202C;
+    color: #E2E8F0;
     overflow: hidden;
-    color: #1a2236;
 }
 
 .presentation-container {
@@ -19,25 +19,23 @@ body {
 }
 
 .header {
-    background: rgba(26,34,54,0.7);
+    background-color: #1A202C;
     padding: 24px;
     text-align: center;
-    backdrop-filter: blur(8px);
-    border-bottom: 2px solid #bfa14a;
+    border-bottom: 2px solid #C0A060;
 }
 
 .header h1 {
     font-size: 2.7em;
     font-weight: bold;
     margin-bottom: 10px;
-    color: #bfa14a;
-    text-shadow: 1px 2px 8px #1a223688, 0 2px 8px #bfa14a44;
+    color: #C0A060;
 }
 
 .header p {
     font-size: 1.2em;
-    opacity: 0.95;
-    color: #f7f7f7;
+    opacity: 0.9;
+    color: #E2E8F0;
 }
 
 .slide-container {
@@ -46,19 +44,19 @@ body {
     align-items: center;
     justify-content: center;
     padding: 40px;
-    position: relative;
+    background-color: #1A202C;
 }
 
 .slide {
-    background: rgba(26,34,54,0.92);
+    background-color: #2D3748;
     border-radius: 24px;
     padding: 44px;
     max-width: 900px;
     width: 100%;
-    backdrop-filter: blur(10px);
-    border: 2px solid #bfa14a;
-    box-shadow: 0 12px 32px rgba(47, 52, 64, 0.13);
+    border: 1px solid #C0A060;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4);
     animation: slideIn 0.8s cubic-bezier(.68,-0.55,.27,1.55);
+    color: #E2E8F0;
 }
 
 @keyframes slideIn {
@@ -75,16 +73,17 @@ body {
 .slide h2 {
     font-size: 2.3em;
     margin-bottom: 28px;
-    color: #bfa14a;
+    color: #C0A060;
     text-align: center;
-    text-shadow: 1px 2px 8px #1a223688, 0 2px 8px #bfa14a44;
+    border-bottom: 2px solid #C0A060;
+    padding-bottom: 10px;
 }
 
 .slide-content {
     font-size: 1.13em;
     line-height: 1.8;
     text-align: left;
-    color: #f7f7f7;
+    color: #E2E8F0;
 }
 
 .slide-content ul {
@@ -102,7 +101,7 @@ body {
     content: "•";
     position: absolute;
     left: 0;
-    color: #bfa14a;
+    color: #C0A060;
     font-size: 1.2em;
     top: 2px;
 }
@@ -114,74 +113,67 @@ body {
     transform: translateX(-50%);
     display: flex;
     gap: 22px;
-    background: rgba(26,34,54,0.8);
+    background-color: #2D3748;
     padding: 15px 32px;
     border-radius: 50px;
-    backdrop-filter: blur(8px);
-    box-shadow: 0 4px 16px #bfa14a33;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
 }
 
 .nav-btn {
-    background: linear-gradient(45deg, #bfa14a, #f7f7f7);
+    background-color: #C0A060;
     border: none;
-    color: #1a2236;
+    color: #1A202C;
     padding: 13px 28px;
     border-radius: 25px;
     cursor: pointer;
     font-size: 1.05em;
     font-weight: bold;
-    transition: all 0.25s cubic-bezier(.68,-0.55,.27,1.55);
-    box-shadow: 0 3px 12px #bfa14a55;
-    letter-spacing: 0.5px;
+    transition: all 0.3s ease-in-out;
 }
 
 .nav-btn:hover {
-    transform: translateY(-4px) scale(1.04);
-    box-shadow: 0 8px 25px #bfa14a88;
-    background: linear-gradient(45deg, #f7f7f7, #bfa14a);
+    background-color: #A88F4A;
+    transform: translateY(-2px);
 }
 
 .nav-btn:disabled {
     opacity: 0.5;
     cursor: not-allowed;
-    transform: none;
 }
 
 .slide-counter {
     position: fixed;
     top: 22px;
     right: 22px;
-    background: rgba(26,34,54,0.8);
+    background-color: #2D3748;
     padding: 10px 22px;
     border-radius: 20px;
     font-size: 1em;
-    color: #bfa14a;
+    color: #C0A060;
     font-weight: bold;
-    backdrop-filter: blur(8px);
-    box-shadow: 0 2px 8px #bfa14a33;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
 }
 
 .section-title {
-    background: linear-gradient(45deg, #1a2236, #bfa14a);
-    color: #f7f7f7;
+    background-color: #2D3748;
+    color: #E2E8F0;
     text-align: center;
     padding: 60px 40px;
     border-radius: 20px;
     margin: 20px 0;
-    box-shadow: 0 6px 24px #bfa14a55;
+    border: 1px solid #C0A060;
+    box-shadow: 0 6px 24px rgba(0, 0, 0, 0.4);
 }
 
 .section-title h2 {
     font-size: 3em;
     margin-bottom: 20px;
-    text-shadow: 2px 2px 8px #bfa14a99;
-    color: #bfa14a;
+    color: #C0A060;
 }
 
 .section-title p {
     font-size: 1.3em;
-    opacity: 0.95;
-    color: #fff;
+    color: #E2E8F0;
 }
 
 .progress-bar {
@@ -189,8 +181,7 @@ body {
     top: 0;
     left: 0;
     height: 5px;
-    background: linear-gradient(90deg, #1976d2, #00bcd4);
-    transition: width 0.3s cubic-bezier(.68,-0.55,.27,1.55);
+    background-color: #C0A060;
+    transition: width 0.3s ease-in-out;
     z-index: 1000;
-    box-shadow: 0 2px 8px #1976d255;
 }

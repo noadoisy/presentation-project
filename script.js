@@ -1,5 +1,27 @@
 const slides = [
             {
+                title: "Titre de la présentation",
+                content: `
+                    <div style="text-align: center;">
+                        <h1 style="font-size: 2.5em; margin-bottom: 20px; color: #C0A060;">L'impact du numérique sur le droit</h1>
+                        <p style="font-size: 1.3em;">Présenté par : Noa Doisy </p>
+                    </div>
+                `
+            },
+            {
+                title: "Sommaire",
+                content: `
+                    <ul>
+                        <li>Introduction à la pédopornographie numérique</li>
+                        <li>Définitions et cadres légaux</li>
+                        <li>Enjeux technologiques et juridiques</li>
+                        <li>Jurisprudence nationale et internationale</li>
+                        <li>Propositions de réformes</li>
+                        <li>Conclusion et perspectives</li>
+                    </ul>
+                `
+            },
+            {
                 title: "Introduction à la pédopornographie numérique",
                 content: `
                     <ul>
